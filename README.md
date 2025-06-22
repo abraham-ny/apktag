@@ -1,6 +1,6 @@
 # Mentioning App
 
-![App Icon](app/src/main/res/mipmap/ic_launcher.png)
+<img src="app/src/main/res/mipmap/ic_launcher.png" alt="App Icon" width="48" height="48" />
 
 ## Overview
 
@@ -17,7 +17,7 @@ This Android app demonstrates a lightweight and efficient way to support mention
 
 ## Screenshots
 
-![App Screenshot](scr.jpg)
+<img src="scr.jpg" alt="App Screenshot" width="360" height="720" />
 
 ## Technology
 
