@@ -42,7 +42,7 @@ public class MentionSpan extends ClickableSpan {
 					abtDlg();
 				}else if(value.contains("source")||value.contains("code")){
 					Intent i = new Intent(Intent.ACTION_VIEW);
-					i.setData(Uri.parse("https://github.com/abraham-ny/hashtag"));
+					i.setData(Uri.parse("https://github.com/abraham-ny/apktag"));
 					context.startActivity(i);
 				}else if(value.contains("video")){
 					openYouTubeOrFallback(context, "uuidsd");
