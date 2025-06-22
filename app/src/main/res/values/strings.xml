@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mentions, Hashtags and URLs</string>
+    <string name="developer">Abraham Moruri</string>
+	<string name="vendor">Abraham .M (github.com/abraham-ny)</string>
+
+</resources>

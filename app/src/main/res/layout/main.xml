@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<ListView
+		android:id="@+id/listView"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"/>
+
+	<TextView
+		android:id="@+id/emptyView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Tip: type #code or #info or #video."
+		android:textAlignment="center"
+		android:textSize="18sp"
+		android:visibility="gone"
+		android:padding="20dp"
+		android:textStyle="bold"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+
+	<EditText
+		android:id="@+id/editText"
+		android:hint="Type #about, #video, #source to view more info..."
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"/>
+
+	<Button
+		android:id="@+id/sendBtn"
+		android:text="Send"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
